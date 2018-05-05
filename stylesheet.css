@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* sets a padding and margin to give a space in browser */
+body {
+    padding: 10px;
+    margin: 10px;
+    font-family: Verdana, Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+article.myborder {
+    height: 100px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+article.myborder div {
+    vertical-align: middle;
+    padding-top: 25px;
+}
+
+article.myborder div img.myLogo {
+            vertical-align: middle;
+            width: 50px;
+            height: 50px;
+            /* border: 2px solid black; */
+            image-rendering: auto;
+            
+        }
